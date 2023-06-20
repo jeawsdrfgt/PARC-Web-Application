@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.h2{
+    text-align: left;
+}
+
+.wrapper{
+    position: relative;
+    width: 600px;
+    height: 660px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+
+}
+
+.form-box h3{
+    font-size: 2em;
+    text-align:center;
+
+}
